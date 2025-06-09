@@ -1,0 +1,200 @@
+body {
+    color: white;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.bgfoncé { 
+    background-color: #151C26;
+}
+
+.bgclair {
+    background-color: #223143;
+}
+
+
+nav {
+    width: 100vw;
+    padding-top: 20px;
+    position: fixed;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    gap: 20px;
+    list-style: none;
+}
+
+li:hover {
+    color:  rgb(251, 217, 48);
+    background-color: #223143;
+}
+
+.entete {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 100px 0px;
+}
+
+.texteentete {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imgphotographe {
+    width: 500px;
+    height: 350px;
+    
+    
+}
+
+#photographe {
+    width: 500px;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 50px;
+    margin: 0;
+}
+
+#mainp {
+    font-size: 20px;
+}
+
+button { /*A FINIR*/
+    width: 150px;
+    padding: 10px 5px;
+    background-color: rgb(251, 217, 48);
+    border: 0px;
+}
+
+.apropos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 0px;
+}
+
+#papropos {
+    display: flex;
+    text-align: center;
+}
+
+#contenubodypainting {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px;
+}
+
+#dbody {
+    max-width: 460px;
+}
+
+#textebody {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#imgbodypainting {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.contenulion {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+#divtxtlion {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+#divimglion {
+    width: 50%;
+}
+
+#imglion {
+    max-width: 100%;
+    height: 100%;
+    object-fit:fill;
+}
+
+.galerie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+/* #titregalerie {
+    display: flex;
+    justify-content: center;
+}*/
+
+.imggalerie {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+div.imggalerie * {
+    width: calc(25% - 20px);
+}
+
+footer {
+    padding-bottom: 200px;
+}
+
+.reseaux, .galerie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logos {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+a img {
+    width: 30px;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+h2, h3 {
+    font-size: 30px;
+}
+
+.p2 {
+    margin-bottom: 0;
+}
+
+a, span {
+    color: rgb(251, 217, 48);
+}
+
+
+
